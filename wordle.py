@@ -17,7 +17,7 @@ for o in range(6):
             h = ""
     guess = [char for char in h.lower()]
     for i in range(5):
-        j += guess[i] + " " 
+        j += " " + guess[i]
     j += "\n"
     for i in range(5):
         if gameAnswer.count(guess[i]) != 0:
