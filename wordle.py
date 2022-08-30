@@ -46,4 +46,4 @@ for o in range(6):
     else:
         print("Potential letters: " + l)
 print("Wordle " + am + "/6\n" + q)
-input("Press enter to close")
+input("Press enter to close/stop")
