@@ -40,14 +40,14 @@ while loopVar == "":
         print("\n" + textBlock)
         for i in possibleLetters: potentialLettersStr += i + " "
         if guess == gameAnswer:
-            am = str(o + 1)
+            totalGuessesStr = str(o + 1)
             break
         elif o == 5:
-            am = "X"
+            totalGuessesStr = "X"
             print("The correct answer was " + gameAnswerStr)
             break
         else:
             print("Potential letters: " + potentialLettersStr)
-    print("Worlde " + am + "/6\n" + finalTextBlock)
+    print("Worlde " + totalGuessesStr + "/6\n" + finalTextBlock)
     worldeNumber += 1
     loopVar = input("Press enter to replay or type anything beforehand to close/stop")
